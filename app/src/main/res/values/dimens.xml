@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="navdrawer_width">240dp</dimen>
+
+    <dimen name="fab_shadow_size">8dp</dimen>
+
+    <dimen name="fab_elevation_lollipop">4dp</dimen>
+
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+    <dimen name="fab_icon_size">24dp</dimen>
+
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+
+    <dimen name="fab_stroke_width">1dp</dimen>
+
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+
+    <dimen name="mm_up_arrow_margin">-16dp</dimen>
+
+    <dimen name="ttlm_default_padding">20dip</dimen>
+    <dimen name="ttlm_default_corner_radius">4dip</dimen>
+    <dimen name="ttlm_default_stroke_weight">1.3sp</dimen>
+</resources>

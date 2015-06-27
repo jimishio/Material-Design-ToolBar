@@ -1,0 +1,106 @@
+<FrameLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimaryDark" />
+
+            <com.example.jimish.SlidingTab.SlidingTabLayout
+                android:id="@+id/sliding_tabs"
+                android:background="?attr/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:background="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/drawer"
+            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:layout_gravity="start"
+            android:orientation="vertical">
+
+
+
+            <ListView
+                android:id="@+id/navdrawer"
+                android:layout_width="@dimen/navdrawer_width"
+                android:layout_height="fill_parent"
+                android:background="?attr/colorPrimaryDark"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/white"
+                android:dividerHeight="1dp"
+                android:drawSelectorOnTop="false"/></LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/floatingActionButtonBgLayout">
+        <com.example.jimish.meetupprep.FloatingActionMenu
+            android:id="@+id/multiple_actions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            fab:fab_addButtonColorNormal="@color/primary_orange"
+            fab:fab_addButtonColorPressed="@color/primary_orange"
+            fab:fab_addButtonPlusIconColor="@color/white"
+            fab:fab_labelStyle="@style/menu_labels_style"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right|bottom"
+            android:layout_weight = "1"
+            >
+
+            <com.example.jimish.meetupprep.FloatingActionButton
+                android:id="@+id/action_a"
+                android:layout_width="fill_parent"
+                android:layout_weight = "1"
+                android:layout_height="fill_parent"
+                fab:fab_addButtonColorNormal="@color/primary_orange"
+                fab:fab_colorNormal="@color/white"
+                fab:fab_title="CREATE MATCH"
+                android:textSize="16sp"
+                fab:fab_size="normal"
+                fab:fab_colorPressed="@color/primary_orange"/>
+
+            <com.example.jimish.meetupprep.FloatingActionButton
+                android:id="@+id/action_b"
+                android:layout_width="fill_parent"
+                android:layout_weight = "1"
+                android:layout_height="fill_parent"
+                fab:fab_colorNormal="@color/white"
+                fab:fab_addButtonColorNormal="@color/primary_orange"
+                fab:fab_title="ADD AN UPDATE"
+                android:textSize="16sp"
+                fab:fab_size="normal"
+                fab:fab_colorPressed="@color/primary_orange"/>
+
+        </com.example.jimish.meetupprep.FloatingActionMenu>
+    </FrameLayout>
+
+
+</FrameLayout>
