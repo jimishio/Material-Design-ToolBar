@@ -2,37 +2,20 @@
 <resources>
     <color name="red">#bf360c</color>
     <color name="ripple_red">#ffbf5232</color>
-    <color name="material_deep_teal_500">#ff009688</color>
 
     <color name="material_teal">@color/material_deep_teal_500</color>
     <color name="ripple_material_teal">#ff149691</color>
 
     <color name="blue">#304f9f</color>
+    <color name="white">#ffffff</color>
     <color name="grey">@color/material_blue_grey_800</color>
     <color name="light">@color/primary_material_light</color>
-    <color name="gray">@color/background_floating_material_dark</color>
-
-
 
     <color name="colorPrimary">@color/material_deep_teal_500</color>
     <color name="colorPrimaryDark">@color/material_deep_teal_500</color>
 
     <color name="windowBackgroundColor">#333333</color>
     <color name="black_translucent">#80000000</color>
-    <color name="black_trasparent">#40000000</color>
 
-    <color name="primary_orange">#ff6f42</color>
-    <color name="primary_material_teal">#009587</color>
-    <color name="primary_gray">@color/background_floating_material_dark</color>
-    <color name="primary_gray2">#989898</color>
-    <color name="secondary_gray">#bfbfbf</color>
-
-    <color name="white">#FFFFFF</color>
-    <color name="black_semi_transparent">#B2000000</color>
-    <color name="transparent">#00000000</color>
-
-    <color name="ttlm_default_background_color">#EE131518</color>
-    <color name="ttlm_default_stroke_color">#FFE9ECEF</color>
-    <color name="mAlphaWhite">#bfbfbf</color>
 
 </resources>

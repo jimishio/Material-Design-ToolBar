@@ -60,7 +60,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/floatingActionButtonBgLayout">
-        <com.example.jimish.meetupprep.FloatingActionMenu
+        <!--com.example.jimish.meetupprep.FloatingActionMenu
             android:id="@+id/multiple_actions"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -99,7 +99,7 @@
                 fab:fab_size="normal"
                 fab:fab_colorPressed="@color/primary_orange"/>
 
-        </com.example.jimish.meetupprep.FloatingActionMenu>
+        </com.example.jimish.meetupprep.FloatingActionMenu-->
     </FrameLayout>
 
 

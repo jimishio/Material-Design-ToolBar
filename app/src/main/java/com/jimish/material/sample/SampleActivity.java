@@ -1,5 +1,4 @@
-
-package com.example.jimish.meetupprep;
+package com.jimish.material.sample;
 
 import android.content.res.Configuration;
 import android.graphics.Color;
@@ -16,11 +15,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.jimish.Adapter.ViewPagerAdapter;
-import com.example.jimish.SlidingTab.SlidingTabLayout;
 
-
-public class MainActivity extends ActionBarActivity {
+public class SampleActivity extends ActionBarActivity {
 
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle drawerToggle;
